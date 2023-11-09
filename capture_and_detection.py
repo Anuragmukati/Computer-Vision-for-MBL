@@ -5,7 +5,7 @@ from ultralytics import YOLO  # YOLOv8 model for object detection
 import numpy as np  # NumPy for numerical operations
 
 # Load YOLOv8 model
-yolo_model = YOLO('yolov8x.pt')
+yolo_model = YOLO('yolov8l.pt')
 
 # Define display width and height for the video feed
 dispW = 640
